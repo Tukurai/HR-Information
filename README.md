@@ -2,5 +2,5 @@
 
 Contains information shared with students on Hogeschool Rotterdam.
 
-- [Source Control](https://github.com/Tukurai/HR-Information/blob/main/SourceControl.md)
-- [Error Handling](https://github.com/Tukurai/HR-Information/blob/main/ErrorHandling.md)
+- [Source Control: GitHub, Git and Gitflow](https://github.com/Tukurai/HR-Information/blob/main/SourceControl.md)
+- [Error handling, Debugging, Troubleshooting & Logging](https://github.com/Tukurai/HR-Information/blob/main/ErrorHandling.md)
