@@ -12,6 +12,7 @@
 8. [Enterprise Solutions for Error Handling](#enterprise-solutions-for-error-handling)
 9. [Exercises and Solutions](#exercises-and-solutions)  
 10. [Conclusion](#conclusion)
+11. [References](#references)
 
 ## Introduction to Error Handling  
 Error handling is an indispensable aspect of programming. It concerns the way your program responds when things don't go as planned.
@@ -690,3 +691,32 @@ While we've focused on Python and C#, the concepts and strategies we've discusse
 However, this guide is just a starting point. Error handling, debugging, and logging are vast topics with many advanced concepts and techniques. As you gain more programming experience, you'll develop your own strategies and techniques, and you'll learn to use more advanced tools and frameworks. We encourage you to continue exploring these topics and practicing these skills.
 
 Good luck, and happy coding!
+
+## References
+### Tools and Libraries
+- **Python** | Python is a popular high-level programming language for general-purpose programming. | [Official website](https://www.python.org/)
+- C# | C# (pronounced C sharp) is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines. It was developed by Microsoft as part of its .NET initiative. | [Official website](https://dotnet.microsoft.com/languages/csharp)
+- pdb | The Python debugger for interactive interpreters. | [Official documentation](https://docs.python.org/3/library/pdb.html)
+- Visual Studio | Visual Studio is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs, websites, web apps, web services, and mobile apps. | [Official website](https://visualstudio.microsoft.com/)
+- Sentry | Sentry provides open-source and hosted error monitoring that helps all software teams discover, triage, and prioritize errors in real-time. | [Official website](https://sentry.io/welcome/)
+- Rollbar | Rollbar provides real-time error alerting and debugging tools for developers. | [Official website](https://rollbar.com/)
+- Raygun | Raygun gives you a window into how users are really experiencing your software applications. Detect, diagnose and resolve issues that are affecting end users with greater speed and accuracy. | [Official website](https://raygun.com/)
+- Elasticsearch, Logstash, Kibana (ELK Stack) | The ELK Stack is a collection of three open-source products — Elasticsearch, Logstash, and Kibana. They are all developed, managed, and maintained by the company Elastic. | [Elasticsearch](https://www.elastic.co/elasticsearch/), [Logstash](https://www.elastic.co/logstash), [Kibana](https://www.elastic.co/kibana)
+- Polly | Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner. | [GitHub Page](https://github.com/App-vNext/Polly)
+
+### Vocabulary
+- **Programming Language** | A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms.
+- **Compile-Time Error** | Compile-time errors, as the name suggests, occur during the compilation of the code. These are usually syntax errors that prevent the code from running.
+- **Runtime Error** | Runtime errors occur during the execution of the program. These could be due to logical errors in the code or unexpected inputs.
+- **Exception** | In computing and computer programming, exceptions are events that occur during the execution of programs that disrupt the normal flow of the program's instructions.
+- **Exception Handling** | In computing and computer programming, exception handling is the process of responding to the occurrence of exceptions – anomalous or exceptional conditions requiring special processing – during the execution of a program.
+- **Debugger** | A debugger or debugging tool is a computer program used to test and debug other programs.
+- **Logging** | Logging is the act of keeping a log. In computing, it usually describes the keeping of a log or a diary of events in an operating system or on a software run.
+- **Version Control Systems** | Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+- **Unit Testing** | In computer programming, unit testing is a software testing method by which individual units of source code—sets of one or more computer program modules together with associated control data, usage procedures, and operating procedures—are tested to determine whether they are fit for use.
+- **Circuit Breaker** | The circuit breaker is a design pattern used in modern software development. It is used for detecting failures and encapsulates the logic of preventing a failure from constantly recurring, during maintenance, temporary external system failure or unexpected system difficulties.
+- **Microservices Architecture** | The microservice architectural style is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API.
+- **CI/CD Pipeline** | A CI/CD Pipeline implementation, or Continuous Integration/Continuous Deployment, is the backbone of the modern DevOps environment. It bridges the gap between development and operations teams by automating the building, testing, and deployment of applications.
+- **Distributed Systems** | A distributed system is a system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages to one another. The components interact with one another in order to achieve a common goal.
+- **Centralized Logging** | Centralized logging is an approach to logging that consolidates logs from various applications and systems into a central location.
+- **Exception Propagation** | Exception propagation is the process by which an exception is forwarded from function call to function call, up the call stack, until it is caught.
